@@ -7,47 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2B6EB4179A0B31005CFD2B /* Animation in Resources */ = {isa = PBXBuildFile; fileRef = 6F2B6EB3179A0B31005CFD2B /* Animation */; };
+		6F76E8B31799809A001DFD71 /* OnozOmgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F76E8B21799809A001DFD71 /* OnozOmgView.m */; };
+		6F76E8B71799827C001DFD71 /* SpringBoardFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F76E8B61799827C001DFD71 /* SpringBoardFoundation.framework */; };
+		6F786BF01799845B006B8413 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F786BEE1799845B006B8413 /* thumbnail@2x.png */; };
+		6F786BF11799845B006B8413 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F786BEF1799845B006B8413 /* thumbnail.png */; };
+		6F786C2C17999664006B8413 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F786C2B17999664006B8413 /* GLKit.framework */; };
 		6FE9E93617997E92003BB8C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9E93517997E92003BB8C5 /* Foundation.framework */; };
-		6FE9E93817997E92003BB8C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9E93717997E92003BB8C5 /* CoreGraphics.framework */; };
 		6FE9E93A17997E92003BB8C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9E93917997E92003BB8C5 /* UIKit.framework */; };
 		6FE9E94017997E92003BB8C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9E93E17997E92003BB8C5 /* InfoPlist.strings */; };
-		6FE9E94217997E92003BB8C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9E94117997E92003BB8C5 /* main.m */; };
-		6FE9E94617997E92003BB8C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9E94517997E92003BB8C5 /* AppDelegate.m */; };
-		6FE9E94817997E92003BB8C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9E94717997E92003BB8C5 /* Images.xcassets */; };
-		6FE9E94F17997E92003BB8C5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9E94E17997E92003BB8C5 /* XCTest.framework */; };
-		6FE9E95017997E92003BB8C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9E93517997E92003BB8C5 /* Foundation.framework */; };
-		6FE9E95117997E92003BB8C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9E93917997E92003BB8C5 /* UIKit.framework */; };
-		6FE9E95917997E92003BB8C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9E95717997E92003BB8C5 /* InfoPlist.strings */; };
-		6FE9E95B17997E92003BB8C5 /* AnimatedWallpaperTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE9E95A17997E92003BB8C5 /* AnimatedWallpaperTestTests.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6FE9E95217997E92003BB8C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6FE9E92A17997E92003BB8C5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FE9E93117997E92003BB8C5;
-			remoteInfo = AnimatedWallpaperTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		6FE9E93217997E92003BB8C5 /* AnimatedWallpaperTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedWallpaperTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F2B6EB3179A0B31005CFD2B /* Animation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Animation; sourceTree = "<group>"; };
+		6F76E8B11799809A001DFD71 /* OnozOmgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnozOmgView.h; sourceTree = "<group>"; };
+		6F76E8B21799809A001DFD71 /* OnozOmgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnozOmgView.m; sourceTree = "<group>"; };
+		6F76E8B61799827C001DFD71 /* SpringBoardFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpringBoardFoundation.framework; path = System/Library/PrivateFrameworks/SpringBoardFoundation.framework; sourceTree = SDKROOT; };
+		6F786BEE1799845B006B8413 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		6F786BEF1799845B006B8413 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		6F786C2B17999664006B8413 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		6FE9E93217997E92003BB8C5 /* AnimatedWallpaperTest.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedWallpaperTest.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE9E93517997E92003BB8C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6FE9E93717997E92003BB8C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6FE9E93917997E92003BB8C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6FE9E93D17997E92003BB8C5 /* AnimatedWallpaperTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedWallpaperTest-Info.plist"; sourceTree = "<group>"; };
 		6FE9E93F17997E92003BB8C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6FE9E94117997E92003BB8C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FE9E94317997E92003BB8C5 /* AnimatedWallpaperTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimatedWallpaperTest-Prefix.pch"; sourceTree = "<group>"; };
-		6FE9E94417997E92003BB8C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6FE9E94517997E92003BB8C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6FE9E94717997E92003BB8C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6FE9E94D17997E92003BB8C5 /* AnimatedWallpaperTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedWallpaperTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FE9E94E17997E92003BB8C5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6FE9E95617997E92003BB8C5 /* AnimatedWallpaperTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedWallpaperTestTests-Info.plist"; sourceTree = "<group>"; };
-		6FE9E95817997E92003BB8C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6FE9E95A17997E92003BB8C5 /* AnimatedWallpaperTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedWallpaperTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,30 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE9E93817997E92003BB8C5 /* CoreGraphics.framework in Frameworks */,
+				6F786C2C17999664006B8413 /* GLKit.framework in Frameworks */,
+				6F76E8B71799827C001DFD71 /* SpringBoardFoundation.framework in Frameworks */,
 				6FE9E93A17997E92003BB8C5 /* UIKit.framework in Frameworks */,
 				6FE9E93617997E92003BB8C5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FE9E94A17997E92003BB8C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FE9E94F17997E92003BB8C5 /* XCTest.framework in Frameworks */,
-				6FE9E95117997E92003BB8C5 /* UIKit.framework in Frameworks */,
-				6FE9E95017997E92003BB8C5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F197D611799A58B00B8DE6C /* Thumbnail Image */ = {
+			isa = PBXGroup;
+			children = (
+				6F786BEF1799845B006B8413 /* thumbnail.png */,
+				6F786BEE1799845B006B8413 /* thumbnail@2x.png */,
+			);
+			name = "Thumbnail Image";
+			sourceTree = "<group>";
+		};
 		6FE9E92917997E92003BB8C5 = {
 			isa = PBXGroup;
 			children = (
 				6FE9E93B17997E92003BB8C5 /* AnimatedWallpaperTest */,
-				6FE9E95417997E92003BB8C5 /* AnimatedWallpaperTestTests */,
 				6FE9E93417997E92003BB8C5 /* Frameworks */,
 				6FE9E93317997E92003BB8C5 /* Products */,
 			);
@@ -87,8 +70,7 @@
 		6FE9E93317997E92003BB8C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FE9E93217997E92003BB8C5 /* AnimatedWallpaperTest.app */,
-				6FE9E94D17997E92003BB8C5 /* AnimatedWallpaperTestTests.xctest */,
+				6FE9E93217997E92003BB8C5 /* AnimatedWallpaperTest.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,10 +78,10 @@
 		6FE9E93417997E92003BB8C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6FE9E93517997E92003BB8C5 /* Foundation.framework */,
-				6FE9E93717997E92003BB8C5 /* CoreGraphics.framework */,
+				6F786C2B17999664006B8413 /* GLKit.framework */,
+				6F76E8B61799827C001DFD71 /* SpringBoardFoundation.framework */,
 				6FE9E93917997E92003BB8C5 /* UIKit.framework */,
-				6FE9E94E17997E92003BB8C5 /* XCTest.framework */,
+				6FE9E93517997E92003BB8C5 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,9 +89,10 @@
 		6FE9E93B17997E92003BB8C5 /* AnimatedWallpaperTest */ = {
 			isa = PBXGroup;
 			children = (
-				6FE9E94417997E92003BB8C5 /* AppDelegate.h */,
-				6FE9E94517997E92003BB8C5 /* AppDelegate.m */,
-				6FE9E94717997E92003BB8C5 /* Images.xcassets */,
+				6F76E8B11799809A001DFD71 /* OnozOmgView.h */,
+				6F76E8B21799809A001DFD71 /* OnozOmgView.m */,
+				6F197D611799A58B00B8DE6C /* Thumbnail Image */,
+				6F2B6EB3179A0B31005CFD2B /* Animation */,
 				6FE9E93C17997E92003BB8C5 /* Supporting Files */,
 			);
 			path = AnimatedWallpaperTest;
@@ -120,26 +103,7 @@
 			children = (
 				6FE9E93D17997E92003BB8C5 /* AnimatedWallpaperTest-Info.plist */,
 				6FE9E93E17997E92003BB8C5 /* InfoPlist.strings */,
-				6FE9E94117997E92003BB8C5 /* main.m */,
 				6FE9E94317997E92003BB8C5 /* AnimatedWallpaperTest-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		6FE9E95417997E92003BB8C5 /* AnimatedWallpaperTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				6FE9E95A17997E92003BB8C5 /* AnimatedWallpaperTestTests.m */,
-				6FE9E95517997E92003BB8C5 /* Supporting Files */,
-			);
-			path = AnimatedWallpaperTestTests;
-			sourceTree = "<group>";
-		};
-		6FE9E95517997E92003BB8C5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6FE9E95617997E92003BB8C5 /* AnimatedWallpaperTestTests-Info.plist */,
-				6FE9E95717997E92003BB8C5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,26 +125,8 @@
 			);
 			name = AnimatedWallpaperTest;
 			productName = AnimatedWallpaperTest;
-			productReference = 6FE9E93217997E92003BB8C5 /* AnimatedWallpaperTest.app */;
-			productType = "com.apple.product-type.application";
-		};
-		6FE9E94C17997E92003BB8C5 /* AnimatedWallpaperTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6FE9E96117997E92003BB8C5 /* Build configuration list for PBXNativeTarget "AnimatedWallpaperTestTests" */;
-			buildPhases = (
-				6FE9E94917997E92003BB8C5 /* Sources */,
-				6FE9E94A17997E92003BB8C5 /* Frameworks */,
-				6FE9E94B17997E92003BB8C5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6FE9E95317997E92003BB8C5 /* PBXTargetDependency */,
-			);
-			name = AnimatedWallpaperTestTests;
-			productName = AnimatedWallpaperTestTests;
-			productReference = 6FE9E94D17997E92003BB8C5 /* AnimatedWallpaperTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 6FE9E93217997E92003BB8C5 /* AnimatedWallpaperTest.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -190,11 +136,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Hamza Sood";
-				TargetAttributes = {
-					6FE9E94C17997E92003BB8C5 = {
-						TestTargetID = 6FE9E93117997E92003BB8C5;
-					};
-				};
 			};
 			buildConfigurationList = 6FE9E92D17997E92003BB8C5 /* Build configuration list for PBXProject "AnimatedWallpaperTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -209,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				6FE9E93117997E92003BB8C5 /* AnimatedWallpaperTest */,
-				6FE9E94C17997E92003BB8C5 /* AnimatedWallpaperTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,15 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FE9E94017997E92003BB8C5 /* InfoPlist.strings in Resources */,
-				6FE9E94817997E92003BB8C5 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FE9E94B17997E92003BB8C5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FE9E95917997E92003BB8C5 /* InfoPlist.strings in Resources */,
+				6F2B6EB4179A0B31005CFD2B /* Animation in Resources */,
+				6F786BF01799845B006B8413 /* thumbnail@2x.png in Resources */,
+				6F786BF11799845B006B8413 /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,42 +173,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE9E94617997E92003BB8C5 /* AppDelegate.m in Sources */,
-				6FE9E94217997E92003BB8C5 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6FE9E94917997E92003BB8C5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FE9E95B17997E92003BB8C5 /* AnimatedWallpaperTestTests.m in Sources */,
+				6F76E8B31799809A001DFD71 /* OnozOmgView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6FE9E95317997E92003BB8C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6FE9E93117997E92003BB8C5 /* AnimatedWallpaperTest */;
-			targetProxy = 6FE9E95217997E92003BB8C5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6FE9E93E17997E92003BB8C5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6FE9E93F17997E92003BB8C5 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6FE9E95717997E92003BB8C5 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6FE9E95817997E92003BB8C5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -353,66 +262,36 @@
 		6FE9E95F17997E92003BB8C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimatedWallpaperTest/AnimatedWallpaperTest-Prefix.pch";
 				INFOPLIST_FILE = "AnimatedWallpaperTest/AnimatedWallpaperTest-Info.plist";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 		6FE9E96017997E92003BB8C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimatedWallpaperTest/AnimatedWallpaperTest-Prefix.pch";
 				INFOPLIST_FILE = "AnimatedWallpaperTest/AnimatedWallpaperTest-Info.plist";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		6FE9E96217997E92003BB8C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedWallpaperTest.app/AnimatedWallpaperTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnimatedWallpaperTest/AnimatedWallpaperTest-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "AnimatedWallpaperTestTests/AnimatedWallpaperTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6FE9E96317997E92003BB8C5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedWallpaperTest.app/AnimatedWallpaperTest";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(SYSTEM_APPS_DIR)/Xcode5-DP3.app/Contents/Developer/Library/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnimatedWallpaperTest/AnimatedWallpaperTest-Prefix.pch";
-				INFOPLIST_FILE = "AnimatedWallpaperTestTests/AnimatedWallpaperTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -435,14 +314,7 @@
 				6FE9E96017997E92003BB8C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		6FE9E96117997E92003BB8C5 /* Build configuration list for PBXNativeTarget "AnimatedWallpaperTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6FE9E96217997E92003BB8C5 /* Debug */,
-				6FE9E96317997E92003BB8C5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
